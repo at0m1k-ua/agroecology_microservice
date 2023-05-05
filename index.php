@@ -34,11 +34,15 @@ $db = DatabaseConnector::get_instance();
             <hr>
             <table class="table">
                 <tr>
-                    <th>№ поля</th>
-                    <th>Площа, га</th>
-                    <th>Бал</th>
-                    <th>pH</th>
-                    <th>Вміст гумусу, %</th>
+                    <th rowspan="2">№ поля</th>
+                    <th rowspan="2">Площа, га</th>
+                    <th rowspan="2">Бал</th>
+                    <th rowspan="2">pH</th>
+                    <th rowspan="2">Вміст гумусу, %</th>
+                    <th colspan="7">Елементи живлення, мг/кг</th>
+                    <th colspan="3">Забруднення</th>
+                </tr>
+                <tr>
                     <th>N</th>
                     <th>P₂O₅</th>
                     <th>K₂O</th>
